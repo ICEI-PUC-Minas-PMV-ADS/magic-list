@@ -148,6 +148,13 @@ O gerenciamento adequado de tarefas contribuirá para que o projeto alcance alto
 
 ## Gestão de Orçamento
 
-O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
+Com base em vários estudos realizados fizemos a nossa projeção de valores com base nesse projeto, levando em base que cada pessoa se dedique 2 horas por dia, de segunda a festa. Levando em base que são quatro pessoas no grupo e todas exerceram papel de QA tester mobile, desenvolvedor mobile e UX mobile, sendo essas funções todas como júnior, o resultado da projeção ficará dessa forma:
 
-![Orçamento](img/02-orcamento.png)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-2024-1-e3-proj-mov-t8-ads-2024-1-e3-proj-magiclist/assets/85804740/da95c379-bd3b-4787-8f66-02a4385f6e53)
+
+Valores baseados nos seguintes links: 
+- https://fwctecnologia.com/blog/post/quanto-custa-criar-aplicativo-2023
+- https://br.jooble.org/salary/qa-junior#:~:text=Quanto%20dinheiro%20posso%20ganhar%20como%20Qa%20junior%20por%20hora%20em,%24%207%2C84%20por%20hora.
+- https://www.glassdoor.com.br/Salários/ux-designer-junior-salário-SRCH_KO0,18.htm
+- https://www.portalinsights.com.br/perguntas-frequentes/quanto-ganha-um-dev-junior-android#:~:text=O%20salário%20médio%20de%20desenvolvedor,R%2418%2C46%20por%20hora.
+
