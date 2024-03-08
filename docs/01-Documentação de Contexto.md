@@ -1,46 +1,36 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Na era digital em que vivemos, a constante avalanche de informações e responsabilidades muitas vezes nos deixa em um emaranhado de tarefas, levando a uma sensação de sobrecarga e desorganização. Nesse cenário, a importância de uma gestão eficiente do tempo e de uma rotina bem estruturada nunca foi tão evidente. O "MagicList" não é apenas um checklist, mas sim um gerenciador de checklist inovador e prático, oferecendo uma abordagem única para a gestão cotidiana.
+
+Dados recentes revelam que a falta de organização é um problema crescente, impactando não apenas a produtividade, mas também a saúde mental. Segundo a Associação Americana de Psicologia, cerca de 77% dos americanos experimentam regularmente sintomas físicos causados pelo estresse, muitas vezes derivados de uma agenda desordenada e da dificuldade em equilibrar as demandas diárias.
+
+A sobrecarga de informações também é uma preocupação global. Um estudo da Universidade da Califórnia estima que, em média, uma pessoa é exposta a uma quantidade de informação equivalente a 174 jornais por dia. Diante desse dilúvio de dados, a capacidade de priorizar e focar nas tarefas essenciais torna-se crucial para a eficiência e o bem-estar.
+
+O "MagicList" visa não apenas abordar esses desafios, mas transformá-los em oportunidades para uma vida mais equilibrada e produtiva. Ao oferecer uma plataforma intuitiva para a criação e gerenciamento de listas de atividades personalizadas, nosso aplicativo visa ser um aliado fundamental na jornada diária de milhares de usuários em busca de uma rotina mais organizada. </br>
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+A falta de organização pode levar a uma sensação de sobrecarga e, muitas vezes, resulta em tarefas esquecidas ou negligenciadas. Para muitos, a rotina diária é uma batalha entre o que precisa ser feito e o que realmente é feito. A ausência de um guia claro pode causar estresse, diminuir a eficiência e prejudicar o equilíbrio entre vida profissional e pessoal. </br>
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O "MagicList" tem como objetivo fornecer uma solução prática e acessível para quem busca melhorar a organização diária. O aplicativo visa: </br>
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+• Facilitar a criação de listas personalizadas de atividades. </br>
+• Ajudar os usuários a priorizar tarefas e definir metas alcançáveis. </br>
+• Fornecer lembretes e notificações para evitar esquecimentos. </br>
+• Melhorar a eficiência e reduzir o estresse associado à gestão de tarefas. </br>
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Dados recentes indicam que a sobrecarga de informações e tarefas é uma preocupação crescente na sociedade moderna. Segundo pesquisa da Associação Americana de Psicologia, 40% dos adultos relatam altos níveis de estresse associados à falta de tempo. Além disso, a produtividade pode aumentar em até 25% quando as pessoas usam métodos de organização eficazes, de acordo com estudo publicado na revista Psychological Science.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+O "MagicList" busca abordar esses desafios oferecendo uma ferramenta intuitiva e eficaz para o gerenciamento de atividades diárias. A implementação de checklists é apoiada por estudos que destacam a eficácia dessa prática na redução do estresse e no aumento da sensação de controle sobre as responsabilidades diárias. </br>
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O "MagicList" é projetado para atender a uma ampla gama de usuários, desde aqueles que lutam para organizar suas agendas até os indivíduos mais disciplinados que buscam uma ferramenta eficiente. Nosso público-alvo inclui:
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+• Profissionais ocupados que desejam otimizar seu tempo. </br>
+• Estudantes que buscam equilibrar estudos, trabalho e vida pessoal. </br>
+• Pais e mães que gerenciam responsabilidades familiares. </br>
+• Qualquer pessoa que valorize a organização como chave para o sucesso diário.
