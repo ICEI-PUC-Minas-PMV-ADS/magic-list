@@ -1,23 +1,23 @@
-# TÍTULO DO PROJETO
+# MagicList - Gerenciador de CheckLists
 
-`CURSO`
+`CURSO` Análise e Desenvolvimento de Sistemas
 
-`DISCIPLINA`
+`DISCIPLINA` Desenvolvimento de uma Aplicação Móvel em um Ambiente de Negócio
 
-`SEMESTRE`
+`SEMESTRE` 3° semestre
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Giovanni Dias Wludarski Resende
+* Kayki Jeronimo Letieri dos Santos
+* Luan Flamarion Marra Lima
+* Pedro Ianky Pinto Rodrigues
 
 ## Orientador
 
-* Nome completo do professor 1
+* Cristiano de Macêdo Neto
 
 ## Instruções de utilização
 
