@@ -1,44 +1,30 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foram consolidados com a participação dos usuários em um trabalho de imersão feita pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-2024-1-e3-proj-mov-t8-ads-2024-1-e3-proj-magiclist/assets/85804740/ecad5c81-a616-490e-b357-98d7007bf56f)
+</br></br>
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-2024-1-e3-proj-mov-t8-ads-2024-1-e3-proj-magiclist/assets/85804740/3f7cebfc-9ca0-4ed9-b647-07e4cd4dc922) 
+</br></br>
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-2024-1-e3-proj-mov-t8-ads-2024-1-e3-proj-magiclist/assets/85804740/78493be5-aa8b-4477-bfe1-23487f7bd7c7) </br>
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários: </br>
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|Eduardo Lima  | Quero um aplicativo para organizar minhas tarefas diárias.           | Estou constantemente esquecendo compromissos e prazos importantes, o que está afetando minha produtividade e causando estresse.               |
+|Mariana Sousa       | Quero um aplicativo para criar listas de compras.                | Eu sempre esqueço de comprar itens essenciais quando vou ao mercado, e isso acaba resultando em várias idas extras e desperdício de tempo e dinheiro |
+|Pedro Almeida       | Quero um aplicativo para planejar minha rotina de estudos.                | Estou me preparando para um concurso importante e preciso de uma maneira eficiente de organizar meu tempo e acompanhar meu progresso nas matérias. |
+|Gabriela Santos       |Quero um aplicativo para organizar meu casamento.                |Com tantos detalhes para cuidar, desde a lista de convidados até a escolha do bolo, estou me sentindo sobrecarregada e preciso de uma ferramenta que me ajude a manter tudo sob controle. |
+|Lucas Oliveira       |Quero um aplicativo para acompanhar minhas metas de condicionamento físico.                | Tenho dificuldade em manter uma rotina regular de exercícios e acredito que um aplicativo de acompanhamento me motivaria a alcançar meus objetivos de forma mais consistente. |
+|Amanda Ferreira       |Quero um aplicativo para organizar minhas finanças pessoais.              | Estou tendo dificuldades em controlar meus gastos e manter um orçamento mensal, o que está impactando minha capacidade de economizar e planejar meu futuro financeiro. |
+|Rafael Silva       | Quero um aplicativo para gerenciar meu projeto de construção civil.                | Estou liderando uma equipe de construção e preciso de uma ferramenta que me ajude a coordenar as diferentes etapas do projeto, desde o planejamento até a execução.|
+|Fernanda Costa       |Quero um aplicativo para organizar minhas viagens.                | Estou sempre esquecendo detalhes importantes, como reservas de hotel e horários de voo, e gostaria de uma maneira mais eficiente de planejar e acompanhar minhas viagens. |
 
 ## Modelagem do Processo de Negócio 
 
@@ -73,51 +59,45 @@ Obs.: todas as informações para gerar os indicadores devem estar no diagrama d
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
-
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-01| Na tela deverão aparecer todas as tarefas que o usuário adicionou | Alta | 
+|RF-02| Na tela deverá conter checkbox para o usuário assinalar o que fez durante o dia.   | Alta |
+|RF-03| Na tela deverá ter um botão de apagar as tarefas.   | Média |
+|RF-04| Na tela deverá ter um botão de resetar as tarefas que estão marcadas.   | Média |
+|RF-05| Na tela deverá aparecer uma mensagem de parabéns após finalizar todas as tarefas.   | Baixa |
+|RF-06| O sistema deverá verificar se existe usuário.   | Alta |
+|RF-07| Na tela de login deverá conter o “esqueci minha senha” no qual redirecionará para uma nova página.   | Média |
+|RF-08| A tela de “recuperar senha” deverá conter dois campos de usuário e e-mail.   | Média |
+|RF-09| O sistema deverá permitir ao usuário criar quantas checklist o usuário desejar.   | Alta |
+|RF-10| O sistema deverá deixar o usuário ter total controle sobre a parte de gerenciamento das checklist.   | Alta |
+|RF-11| O sistema deve possibilitar abrir, editar nome e excluir um checklist desejável.   | Alta |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | Alta | 
+|RNF-002| Sistema possui toda segurança, impossibilitando acessos restritos de hackers. |  Média | 
+|RNF-002| Sistema com toda escalabilidade sendo capaz de aumentar ou diminuir. |  Média | 
+|RNF-002| Sistema contém modificações das informações diariamente. |  Alta | 
+|RNF-002| Sistema possui disponibilidade 24 horas. | Baixa  | 
+|RNF-002| Sistema não deverá apresentar nenhuma lentidão independente do número ou tamanho de checklists. |  Alta | 
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| A aplicação tem como prazo para a finalização do desenvolvimento até 23/06/2024. |
+|02| O projeto deve se restringir as tecnologias básicas de uma aplicação móvel.        |
+|03| A equipe não poderá subcontratar o desenvolvimento do projeto.        |
+|04| Para realização do projeto a equipe deve definir e seguir em conjunto padrões de projeto.        |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
