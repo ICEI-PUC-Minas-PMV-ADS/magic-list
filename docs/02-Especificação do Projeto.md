@@ -150,7 +150,7 @@ O gerenciamento adequado de tarefas contribuirá para que o projeto alcance alto
 
 Com base em vários estudos realizados fizemos a nossa projeção de valores com base nesse projeto, levando em base que cada pessoa se dedique 2 horas por dia, de segunda a festa. Levando em base que são quatro pessoas no grupo e todas exerceram papel de QA tester mobile, desenvolvedor mobile e UX mobile, sendo essas funções todas como júnior, o resultado da projeção ficará dessa forma:
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-2024-1-e3-proj-mov-t8-ads-2024-1-e3-proj-magiclist/assets/85804740/da95c379-bd3b-4787-8f66-02a4385f6e53)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-2024-1-e3-proj-mov-t8-ads-2024-1-e3-proj-magiclist/assets/85804740/64313078-59ec-453a-a203-97cb6beea951)
 
 Valores baseados nos seguintes links: 
 - https://fwctecnologia.com/blog/post/quanto-custa-criar-aplicativo-2023
