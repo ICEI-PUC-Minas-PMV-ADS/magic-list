@@ -101,30 +101,23 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+![Imagem do WhatsApp de 2024-03-09 à(s) 17 28 45_908abfc1](https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-2024-1-e3-proj-mov-t8-ads-2024-1-e3-proj-magiclist/assets/85804740/1f0e88cf-490e-4c2b-b6a7-f5074ea884e0)
+</br> </br>
+![Imagem do WhatsApp de 2024-03-09 à(s) 17 25 39_d0a9622a](https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-2024-1-e3-proj-mov-t8-ads-2024-1-e3-proj-magiclist/assets/85804740/5e040bb6-c1c9-4a7a-962e-56852860448d)
 
 # Matriz de Rastreabilidade
 
-A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
+A matriz de rastreabilidade é uma ferramenta fundamental no processo de desenvolvimento de sistemas, pois oferece uma visão organizada e clara da relação entre requisitos e as características correspondentes do sistema. Nessa matriz, reunimos requisitos funcionais (RF) e requisitos não funcionais (RNF) para o projeto "MagicList", um gerenciador de checklist inovador.
 
-A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
+Os requisitos funcionais descrevem as funcionalidades específicas que o sistema deve oferecer aos usuários, como a exibição de tarefas, a marcação de checkbox, e a gestão de checklists. Por outro lado, os requisitos não funcionais abordam características globais do sistema, como segurança, escalabilidade, atualização diária de informações, disponibilidade 24 horas e desempenho otimizado.
 
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
+A matriz apresenta uma tabela organizada, onde cada requisito (seja funcional ou não funcional) está associado às características específicas do sistema que devem ser implementadas para atendê-lo. Isso proporciona uma compreensão clara das interdependências entre requisitos e características, facilitando o acompanhamento do desenvolvimento e garantindo que todas as necessidades do projeto sejam contempladas.
 
-> **Links Úteis**:
-> - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
-> - [Verificação da rastreabilidade de requisitos usando a integração do IBM Rational RequisitePro e do IBM ClearQuest Test Manager](https://developer.ibm.com/br/tutorials/requirementstraceabilityverificationusingrrpandcctm/)
-> - [IBM Engineering Lifecycle Optimization – Publishing](https://www.ibm.com/br-pt/products/engineering-lifecycle-optimization/publishing/)
+Dessa forma, a matriz de rastreabilidade é uma ferramenta valiosa para assegurar a integridade e a abrangência do sistema, promovendo um desenvolvimento mais eficiente e transparente.
+</br> </br> 
 
+![Imagem do WhatsApp de 2024-03-09 à(s) 19 42 19_af1ebc6f](https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-2024-1-e3-proj-mov-t8-ads-2024-1-e3-proj-magiclist/assets/85804740/a5618506-36be-4e27-a402-4a9186e27192)
 
 # Gerenciamento de Projeto
 
