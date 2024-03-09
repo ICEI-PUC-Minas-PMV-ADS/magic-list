@@ -81,10 +81,10 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | Alta | 
 |RNF-002| Sistema possui toda segurança, impossibilitando acessos restritos de hackers. |  Média | 
-|RNF-002| Sistema com toda escalabilidade sendo capaz de aumentar ou diminuir. |  Média | 
-|RNF-002| Sistema contém modificações das informações diariamente. |  Alta | 
-|RNF-002| Sistema possui disponibilidade 24 horas. | Baixa  | 
-|RNF-002| Sistema não deverá apresentar nenhuma lentidão independente do número ou tamanho de checklists. |  Alta | 
+|RNF-003| Sistema com toda escalabilidade sendo capaz de aumentar ou diminuir. |  Média | 
+|RNF-004| Sistema contém modificações das informações diariamente. |  Alta | 
+|RNF-005| Sistema possui disponibilidade 24 horas. | Baixa  | 
+|RNF-006| Sistema não deverá apresentar nenhuma lentidão independente do número ou tamanho de checklists. |  Alta | 
 
 ## Restrições
 
