@@ -50,12 +50,12 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 
 ## Indicadores de Desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
-
-Usar o seguinte modelo: 
-
-![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
+| **Indicador** | **Descrição** | **Métrica** | **Objetivo** |
+|---------------|---------------|-------------|--------------|
+| Tempo Médio de Sessão | Duração média das sessões de usuários na aplicação. | Tempo total em sessão / Número de sessões | Manter acima de 5 minutos |
+| Tempo de Carregamento da Aplicação | Tempo que a aplicação leva para se tornar utilizável após o usuário iniciar. | Tempo médio em segundos | Manter abaixo de 3 segundos |
+| Taxa de Crescimento de Recursos | Velocidade na qual novos recursos são adicionados à aplicação. | Novos recursos por mês | Lançar 2 novos recursos por mês |
+| Satisfação e Engajamento da Equipe | Mede o nível de satisfação e engajamento da equipe com o projeto. | Pesquisas de engajamento e satisfação | Manter ou melhorar a pontuação de satisfação em 5% ao ano |
 
 ## Requisitos
 
