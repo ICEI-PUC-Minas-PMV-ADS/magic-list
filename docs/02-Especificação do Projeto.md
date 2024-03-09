@@ -132,19 +132,20 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 
 ## Gerenciamento de Tempo
 
-Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
+Usando esse diagrama conseguimos analisar e visualizar da melhor forma um fluxo de nossas atividades, com dias que cada atividade deve durar,e a numeração das atividades listadas
 
-![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
+![Imagem do WhatsApp de 2024-03-08 à(s) 20 54 45_0310a74b](https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-2024-1-e3-proj-mov-t8-ads-2024-1-e3-proj-magiclist/assets/85804740/54bb7d8b-0b1d-4606-8d57-9aba6d270b71)
 
-O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
+Assim como o fluxograma acima, foi projetado pelo grupo uma tabela em que mostramos as tarefas listadas acima, contendo dias de duração data de inicio e término de cada atividade. 
 
-![Gráfico de Gantt](img/02-grafico-gantt.png)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-2024-1-e3-proj-mov-t8-ads-2024-1-e3-proj-magiclist/assets/85804740/26762236-f441-445b-8f7e-c9fcac8d7f31)
+
 
 ## Gerenciamento de Equipe
 
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
+O gerenciamento de equipes foi montado e projetado com base nas datas de entrega da faculdade disponíveis até o momento. Nessa planilha podemos ver os períodos de cada atividade mostrando um periodo do tempo entre uma semana entre cada espaço. Também é de fácil visualização a tarefa que cada time deve exercer e o período de cada atividade proposta.
 
-![Simple Project Timeline](img/02-project-timeline.png)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-2024-1-e3-proj-mov-t8-ads-2024-1-e3-proj-magiclist/assets/85804740/b0bca994-300d-4d59-bd1e-8d298624f8de)
 
 ## Gestão de Orçamento
 
