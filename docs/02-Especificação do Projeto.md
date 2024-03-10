@@ -29,24 +29,30 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 ## Modelagem do Processo de Negócio 
 
 ### Análise da Situação Atual
+Atualmente, observamos que muitos usuários enfrentam dificuldades em organizar suas tarefas diárias, compras, rotina de estudos, planejamento de eventos, metas de condicionamento físico, finanças pessoais, projetos profissionais e viagens. Muitas vezes, essas atividades são gerenciadas de forma fragmentada, levando a esquecimentos, desperdício de tempo e recursos, além de aumento do estresse e da falta de produtividade.
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+As soluções disponíveis no mercado não atendem completamente às necessidades dos usuários ou são complexas demais para serem utilizadas de forma eficaz. Além disso, há uma falta de integração entre diferentes aplicativos, o que dificulta ainda mais o gerenciamento holístico das atividades diárias.
 
 ### Descrição Geral da Proposta
+A proposta do projeto "MagicList" é desenvolver um aplicativo móvel inovador que ofereça uma solução abrangente e intuitiva para o gerenciamento de diversas atividades do dia a dia dos usuários. O aplicativo visa simplificar a organização de tarefas, listas de compras, rotinas de estudos, eventos, metas de condicionamento físico, finanças pessoais, projetos profissionais e viagens, proporcionando uma experiência integrada e eficiente.
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+O "MagicList" busca atender às necessidades dos usuários, proporcionando praticidade, agilidade e controle sobre suas atividades diárias. Além disso, o aplicativo visa promover a produtividade, reduzir o estresse e otimizar o uso do tempo, contribuindo para uma melhor qualidade de vida.
 
-### Processo 1 – NOME DO PROCESSO
+### Processo 1 – Gerenciamento de Tarefas Diárias
+Oportunidades de Melhoria
+Melhorar a organização e visualização das tarefas diárias dos usuários.
+Facilitar a marcação de tarefas concluídas.
+Permitir o gerenciamento flexível e intuitivo das tarefas.
+![diagram](https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-2024-1-e3-proj-mov-t8-ads-2024-1-e3-proj-magiclist/assets/54692628/75a48987-71a8-49d0-93f5-bd7aa1b8e9ed)
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
+### Processo 2 – Planejamento de Rotina de Estudos
+Oportunidades de Melhoria
+Facilitar o planejamento e acompanhamento das rotinas de estudos dos usuários.
+Integrar recursos de acompanhamento de progresso e metas de estudo.
+Oferecer ferramentas de organização de materiais e horários de estudo.
+![diagram (1)](https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-2024-1-e3-proj-mov-t8-ads-2024-1-e3-proj-magiclist/assets/54692628/38f24174-0190-4ab9-b94b-e302e4fc8997)
 
-![Processo 1](img/02-bpmn-proc1.png)
-
-### Processo 2 – NOME DO PROCESSO
-
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
-
-![Processo 2](img/02-bpmn-proc2.png)
+Essa modelagem do processo de negócio proporciona uma base sólida para o desenvolvimento do aplicativo "MagicList", destacando as principais atividades a serem realizadas e as oportunidades de melhoria em cada uma delas. Essa abordagem visa garantir que o aplicativo atenda às necessidades dos usuários de forma eficaz e eficiente, promovendo uma experiência positiva e satisfatória.
 
 ## Indicadores de Desempenho
 
