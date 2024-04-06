@@ -1,9 +1,7 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+Metodologia é o conjunto de técnicas, procedimentos e abordagens utilizados para conduzir uma pesquisa, um projeto ou uma atividade específica. Ela define o caminho a ser seguido para alcançar os objetivos estabelecidos, fornecendo uma estrutura para a coleta, análise e interpretação de dados. A escolha da metodologia adequada depende do contexto, dos objetivos do projeto e das questões a serem respondidas. Existem diversas metodologias utilizadas em diferentes áreas, como pesquisa científica, desenvolvimento de software, design de produtos, entre outros. Uma metodologia bem definida é essencial para garantir a eficiência, a consistência e a validade dos resultados obtidos durante o processo.
 
 ## Relação de Ambientes de Trabalho
 
@@ -33,55 +31,34 @@ etiquetas:
 
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
-> **Links Úteis**:
-> - [Microfundamento: Gerência de Configuração](https://pucminas.instructure.com/courses/87878/)
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
-
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
-
-Apresente a divisão de papéis entre os membros do grupo.
-
-Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master: Felipe Domingos;
-- Product Owner: Rommel Carneiro;
-- Equipe de Desenvolvimento: Pedro Penna, Pedro Ivo, Rodrigo Richard;
-- Equipe de Design: Simone Nogueira.
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-> - [Os papéis do Scrum e a verdade sobre cargos nessa técnica](https://www.atlassian.com/br/agile/scrum/roles)
+A divisão dos papéis foi separada em cinco funções e cada pessoa do grupo estará envolvida em duas funções
+</br>
+- Scrum Master: Pedro Ianky Pinto Rodrigues 
+- Product Owner:  Luan Flamarion Marra Lima 
+- Equipe de Desenvolvimento: Kayki Jeronimo Letieri dos Santos / Giovanni Dias Wludarski Resende / Pedro Ianky Pinto Rodrigues 
+- Equipe de Design: Giovanni Dias Wludarski Resende
+- Equipe de Quality Assurance: Luan Flamarion Marra Lima / Kayki Jeronimo Letieri dos Santos
 
 ### Processo
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas:
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Planejamento e Gestáo Ágil de Projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards)
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+- To Do: tarefas elencadas para a Sprint ativa;
+- In Progress: tarefas em execução;
+- Done: tarefas finalizadas.
+</br>
+O quadro a seguir foi desenvolvido pelo grupo na ferramenta de gerenciamento de projetos está disponível através da URL Kanban GitHub. e é apresentado, no estado atual, na Figura .
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/magic-list/assets/85804740/b54dcb82-cbc3-425e-afee-596cbac88e5f)
 
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+- Visual Studio Code. O VS Code é um editor de código altamente popular e amplamente utilizado na indústria de desenvolvimento de software. Sua escolha se baseia na sua versatilidade, extensibilidade e eficiência no desenvolvimento de software.
 
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
+- Microsoft Teams e Whatsapp. O Microsoft Teams é uma plataforma de colaboração que oferece uma variedade de recursos, incluindo chat, videoconferência, compartilhamento de arquivos e integração com outras ferramentas da Microsoft, como o Office 365. Sua escolha se baseia na capacidade de facilitar a comunicação e a colaboração entre os membros da equipe em tempo real, bem como na sua integração com outras ferramentas usadas no ambiente de trabalho. A escolha do WhatsApp se deve à sua capacidade de oferecer comunicação rápida e informal entre os membros da equipe, especialmente em situações em que o acesso a outras plataformas de comunicação, como o Microsoft Teams, pode não ser viável. Essa ferramenta permite trocas rápidas de mensagens, compartilhamento de informações e coordenação de atividades de forma eficaz, especialmente em equipes remotas.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+- Canva. É uma ferramenta de design colaborativo baseada na web que permite criar designs de forma eficiente. Sua escolha se baseia na capacidade de facilitar a colaboração entre designers, bem como na sua capacidade de criar protótipos que capturam de forma precisa e detalhada as necessidades. 
