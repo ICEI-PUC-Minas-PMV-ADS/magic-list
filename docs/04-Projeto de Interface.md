@@ -20,8 +20,7 @@ Um wireframe é um esboço visual básico que representa a estrutura e o layout 
 Um diagrama de fluxo é uma representação gráfica que ilustra o fluxo de informações, processos ou interações em um sistema. Ele mostra as etapas sequenciais, decisões e ramificações em um processo, geralmente utilizando símbolos e setas para indicar a direção do fluxo. Os diagramas de fluxo são amplamente utilizados em design de sistemas, engenharia de software e outras áreas para visualizar a lógica por trás de um processo e identificar possíveis pontos de melhoria ou otimização. Eles ajudam a entender a sequência de eventos de forma clara e a comunicar efetivamente o funcionamento de um sistema para as partes interessadas.
 </br>
 
-![1](https://github.com/ICEI-PUC-Minas-PMV-ADS/magic-list/assets/85804740/7e99cf83-6084-46df-aa2a-a6c7c934c550) </br></br>
-![2](https://github.com/ICEI-PUC-Minas-PMV-ADS/magic-list/assets/85804740/c44d636e-8caa-4c50-8180-c9799b7c1ac6) </br></br>
-![3](https://github.com/ICEI-PUC-Minas-PMV-ADS/magic-list/assets/85804740/f26632dc-1d17-4876-a27b-54b078195f7b) </br></br>
-![4](https://github.com/ICEI-PUC-Minas-PMV-ADS/magic-list/assets/85804740/dfb8cbca-eb8f-48a2-8649-e80f15b368e4) </br></br>
-
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/magic-list/assets/85804740/0ecbc87c-55a6-4f3e-82f0-c5d29e8d28b6) </br></br>
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/magic-list/assets/85804740/121807d7-4c7e-41b1-bea3-4a98fabfee1c) </br></br>
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/magic-list/assets/85804740/f88d0edc-c1e4-4157-b9cf-61c8ba3ff815) </br></br>
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/magic-list/assets/85804740/1cd16368-447d-49b0-97db-3fcc133f5afa) </br></br>
