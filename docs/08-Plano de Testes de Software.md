@@ -10,10 +10,14 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 
 Comente sobre as ferramentas de testes utilizadas.
  
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+| ID do Teste | Descrição                        | Funcionalidade Relacionada | Tipo de Teste   | Grupo de Usuários |
+|-------------|----------------------------------|----------------------------|-----------------|-------------------|
+| 001         | Verificar login com credenciais válidas | Login de usuário            | Teste Funcional | Usuários finais   |
+| 002         | Verificar adição de nova tarefa       | Adicionar tarefa na to-do list  | Teste Funcional | Usuários finais   |
+| 003         | Verificar a edição de uma tarefa      | Editar tarefa existente         | Teste Funcional | Usuários finais   |
+| 004         | Testar exclusão de uma tarefa         | Remover tarefa da to-do list    | Teste Funcional | Usuários finais   |
+| 005         | Modificar CheckList | Renomear a CheckList        | Teste Funcional | Usuários recorrentes  |
+| 006         | Avaliar a navegabilidade na tela inicial | Interface do usuário        | Teste de Usabilidade | Novos usuários  |
+
+
+
