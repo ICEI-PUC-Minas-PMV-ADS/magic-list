@@ -1,8 +1,5 @@
 import React, {useState} from 'react';
 import {View, Text, StyleSheet, TextInput, TouchableOpacity} from 'react-native';
-import { useNavigation } from '@react-navigation/native';
-
-import RegisterPage from './registerPage';
 
 import Body from '../components/body';
 import Container from '../components/container';

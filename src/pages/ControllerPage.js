@@ -4,6 +4,7 @@ import { BottomNavigation } from 'react-native-paper';
 import ChecklistMain from './checklistMenu';
 import LoginPage from './loginPage'
 import HomePage from './homePage'
+import RegisterPage from './registerPage'
 
 const Controller = () => {
   
@@ -11,6 +12,7 @@ const Controller = () => {
   const [routes] = React.useState([
     {key: 'homepage', title: 'Inicio', icon: 'home'},
     {key: 'login', title: 'Login', icon: 'account'},
+    {key: 'register', title: 'Register', icon: 'account-plus'},
     {key: 'checklistMenu', title: 'Menu', icon: 'folder'},
   ]);
 
@@ -18,6 +20,7 @@ const Controller = () => {
     checklistMenu: ChecklistMain,
     login: LoginPage,
     homepage: HomePage,
+    register: RegisterPage,
   })
  
   return(
