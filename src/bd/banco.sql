@@ -1,4 +1,4 @@
--- Criação da tabela Usuário
+-- Criação da tabela Usuario
 CREATE TABLE Usuario (
     ID_Usuario INT PRIMARY KEY,
     Nome VARCHAR(255),
