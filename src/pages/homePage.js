@@ -1,41 +1,29 @@
 import React from 'react';
 import {View, Text, StyleSheet, TouchableOpacity} from 'react-native';
 
+import Body from '../components/body';
+import Container from '../components/container';
+import Header from '../components/header';
+
 const HomePage = () => {
 
   return(
-    <View style={styles.container}>
+    <Container>
+      <Header title={'Tela Principal'} />
 
-    <TouchableOpacity style={styles.startBar}>
-    </TouchableOpacity>
+      <Body>
+        <Text style={styles.titleText}> Magic List </Text>
 
-    <Text style={styles.titleText}> Magic List </Text>
+        <Text style={styles.subtitleText}> O melhor gerenciador de checklist! </Text>
 
-    <Text style={styles.subtitleText}> O melhor gerenciador de checklist! </Text>
-
-    <Text style={styles.commomText}>  Transformando o caos em organização </Text>
-
-    <Text style={styles.commomText}>  um checklist de cada vez  </Text>
-
-    </View>
+        <Text style={styles.commomText}>  Transformando o caos em organização </Text>
+      </Body>
+   </Container>
   );
   
 };
 
 const styles = StyleSheet.create({
-  startBar: {
-    position: 'absolute',
-    top: 0,
-    width: '100%',
-    height: 50,
-    backgroundColor: 'blue',
-  },
-  container: {
-    flex: 1,
-    backgroundColor: '#D1D1D1',
-    justifyContent: 'center', 
-    alignItems: 'center', 
-  },
   titleText: {
     fontSize: 60,
     marginTop: 25,

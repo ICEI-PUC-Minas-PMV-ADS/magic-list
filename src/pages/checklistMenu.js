@@ -1,61 +1,75 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, FlatList } from 'react-native';
+import { FAB } from 'react-native-paper';
 
-const data = new Array(8).fill(null).map((_, index) => ({
-  id: index,
-  name: `Lista ${index + 1}`,
-}));
+import Body from '../components/body';
+import Container from '../components/container';
+import Header from '../components/header';
 
-const ChecklistMenu = ({ navigation }) => {
+import {useNavigation} from '@react-navigation/native';
+import {useIsFocused} from '@react-navigation/native';
+
+import {getCheckList} from '../services/CheckListService';
+
+const ChecklistMenu = () => {
+  
+  const navigation = useNavigation();
+  const isFocused = useIsFocused();
+
+  const [checklist, setChecklist] = useState([]);
+
+  useEffect(() =>{
+    getCheckList().then((dados) =>{
+      setChecklist(dados)
+    })
+  }, [isFocused])
+  
   const renderItem = ({ item }) => (
     <TouchableOpacity
       style={styles.button}
-      onPress={() => navigation.navigate('ChecklistPage')}>
-      <Text style={styles.buttonText}>{item.name}</Text>
+      onPress={() => navigation.navigate('Checklist')}>
+      <Text style={styles.textButton}>{item.nome}</Text>
+      <Text style={styles.textEdit} onPress={() => navigation.navigate('Adicionar Checklist', {item})}> Editar </Text>
     </TouchableOpacity>
   );
 
   return (
-    <View style={styles.container}>
-    <TouchableOpacity style={styles.startBar}>
-    </TouchableOpacity>
-      <Text style={styles.title}>LISTA DE CHECKLISTS</Text>
-      <View style={styles.backgroundList}> 
+    <Container>
+      <Header title={'Lista de checklists'} />
+
+      <Body>
+         <Text style={styles.title}>Selecione a lista desejada</Text>
+      {
+        checklist.length > '0' &&
+        <View style={styles.backgroundList}> 
         <FlatList
-          data={data}
+          data={checklist}
           renderItem={renderItem}
-          keyExtractor={(item) => item.id.toString()}
           numColumns={2}
           columnWrapperStyle={styles.row}
         />
-      </View>
-    </View>
+        </View>}
+        <FAB
+          icon="plus"
+          style={styles.fab}
+          onPress={() => navigation.navigate('Adicionar Checklist')}
+        />
+      </Body>
+   </Container>
   );
 };
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    backgroundColor: '#D1D1D1',
-    alignItems: 'center',
-  },
-  startBar: {
-    position: 'absolute',
-    top: 0,
-    width: '100%',
-    height: 50,
-    backgroundColor: 'blue',
-  },
   title: {
     fontSize: 24,
     fontWeight: 'bold',
-    marginBottom: 60,
+    marginBottom: 20,
     marginTop: 30,
   },
   backgroundList: {
     justifyContent: 'center',
     backgroundColor: '#C0C0C0',
+    height: '90%',
     alignItems: 'center',
     borderRadius: 20,
     padding: 15,
@@ -81,9 +95,20 @@ const styles = StyleSheet.create({
     shadowRadius: 3,
     margin: 10,
   },
-  buttonText: {
+  textButton: {
     fontSize: 18,
     fontWeight: 'bold',
+  },
+  textEdit:{
+    fontSize: 13,
+    marginTop: 6,
+    color: 'blue'
+  },
+  fab: {
+    position: 'absolute',
+    margin: 16,
+    right: 0,
+    bottom: 0,
   },
 });
 

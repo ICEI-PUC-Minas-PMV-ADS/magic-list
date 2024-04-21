@@ -73,16 +73,6 @@ const styles = StyleSheet.create({
     borderRadius: 9,
     width: '80%', 
   },
-  redirectButton: {
-    fontWeight: '100',
-    width: 330,
-    alignItems: 'center',
-    backgroundColor: '#D1D1D1',
-    padding: 7
-  },
-  redirectText: {
-    color: '#0363ff'
-  },
   buttonLogin: {
     borderRadius: 9,
     marginTop: 25,

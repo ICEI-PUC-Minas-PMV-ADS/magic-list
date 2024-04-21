@@ -1,5 +1,15 @@
-import React, { useState } from 'react';
-import { View, Text, TouchableOpacity, FlatList, StyleSheet } from 'react-native';
+import React, { useEffect, useState } from 'react';
+import { View, Text, TouchableOpacity, StyleSheet, FlatList } from 'react-native';
+import { FAB } from 'react-native-paper';
+
+import Body from '../components/body';
+import Container from '../components/container';
+import Header from '../components/header';
+
+import { useNavigation } from '@react-navigation/native';
+import { useIsFocused } from '@react-navigation/native';
+
+import { getListUnic } from '../services/ListService';
 
 const ChecklistItem = ({ item, onPress }) => (
   <TouchableOpacity onPress={onPress} style={[styles.item, item.checked && styles.checked]}>
@@ -8,11 +18,16 @@ const ChecklistItem = ({ item, onPress }) => (
 );
 
 const Checklist = () => {
-  const [items, setItems] = useState([
-    { id: 1, name: ' 1', checked: false },
-    { id: 2, name: 'Item 2', checked: false },
-    { id: 3, name: 'Item 3', checked: false },
-  ]);
+  const [items, setItems] = useState([]);
+
+  const navigation = useNavigation();
+  const isFocused = useIsFocused();
+
+  useEffect(() =>{
+    getListUnic().then((dados) =>{
+      setItems(dados.map(item => ({ ...item, checked: false }))); 
+    })
+  }, [isFocused])
 
   const toggleItem = (id) => {
     setItems(items.map(item => {
@@ -24,40 +39,32 @@ const Checklist = () => {
   };
 
   return (
-     <View style={styles.container}>
+     <Container>
+      <Header title={'Checklist'} goBack={() => navigation.goBack()} />
 
-    <TouchableOpacity style={styles.startBar}>
-    </TouchableOpacity>
-    <FlatList
-      data={items}
-      renderItem={({ item }) => (
-        <ChecklistItem
-          item={item}
-          onPress={() => toggleItem(item.id)}
-        />
-      )}
-      keyExtractor={item => item.id.toString()}
-      style={styles.list} // Use the new style for FlatList
-    />
-    </View>
+          <Body>
+            <FlatList
+              data={items}
+              renderItem={({ item }) => (
+            <ChecklistItem
+              item={item}
+                onPress={() => toggleItem(item.id)}
+              />
+            )}
+              style={styles.list} 
+            />
+            <FAB
+              icon="plus"
+              style={styles.fab}
+              onPress={() => navigation.navigate('Adicionar Item')}
+            />
+      </Body>
+   </Container>
   
   );
 };
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#D1D1D1',
-    justifyContent: 'center', 
-    alignItems: 'center', 
-  },
-  startBar: {
-    position: 'absolute',
-    top: 0,
-    width: '100%',
-    height: 50,
-    backgroundColor: 'blue',
-  },
   list: { 
     position: 'absolute',
     width: '100%' 
@@ -78,6 +85,12 @@ const styles = StyleSheet.create({
   checked: {
     backgroundColor: '#e1ffe1',
     borderColor: '#8aff8a',
+  },
+  fab: {
+    position: 'absolute',
+    margin: 16,
+    right: 0,
+    bottom: 0,
   },
 });
 
