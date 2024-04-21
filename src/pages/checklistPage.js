@@ -13,7 +13,7 @@ import { getListUnic } from '../services/ListService';
 
 const ChecklistItem = ({ item, onPress }) => (
   <TouchableOpacity onPress={onPress} style={[styles.item, item.checked && styles.checked]}>
-    <Text>{item.name}</Text>
+    <Text>{item.nome}</Text>
   </TouchableOpacity>
 );
 
