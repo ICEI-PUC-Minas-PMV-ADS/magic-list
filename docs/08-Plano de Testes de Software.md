@@ -1,19 +1,77 @@
-# Plano de Testes de Software
+## Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+Os testes funcionais a serem realizados na aplicação são descritos a seguir:
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+## CT-001: Registro de usuário
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
- 
-## Ferramentas de Testes (Opcional)
+*Descrição:* Verificar se os usuários podem registrar uma nova receita médica com sucesso.
 
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+*Passos:*
+1. Logar no sistema.
+2. Navegar até a página de registro.
+3. Preencher os campos.
+4. Cadastrar usuário.
+
+*Resultado Esperado:* Um novo usuário será cadastrado ao sistema.
+
+## CT-002: Login de Usuário
+
+*Descrição:* Verificar se as informações para login existem e estão corretas.
+
+*Passos:*
+1. Logar no sistema.
+2. Navegar até a página de login.
+3. Preencher os campos.
+4. Clicar no botão de logar.
+
+*Resultado Esperado:* O sistema verifica se está correto os dados e faz login com o usuário.
+
+## CT-003: Registro de nova Checklist
+
+*Descrição:* Possibilitar o usuário de criar uma checklist.
+
+*Passos:*
+1. Logar no sistema.
+2. Navegar até a página de Menu de checklist.
+3. Clicar no botão "+" no canto da tela.
+4. Adicionar o nome da checklist.
+5. Clicar para salvar a checklist.
+6. Confirmar a checklist no menu.
+
+*Resultado Esperado:* A checklist irá aparecer no menu para poder ser editada ou aceessada.
+
+## CT-004: Edição de checklist
+
+*Descrição:* Editar o nome da checklist já existente.
+
+*Passos:*
+1. Acessar a página de Menu de checklist.
+2. Clicar em editar na checklist desejada.
+3. Escolher um nome diferente do existente.
+4. Confirmar o nome.
+
+*Resultado Esperado:* A checklist estará com o novo nome no Menu.
+
+## CT-005: Deletar checklist
+
+*Descrição:* A checklist será deletada do Menu.
+
+*Passos:*
+1. Acessar a página de Menu de checklist.
+2. Clicar em editar na checklist desejada.
+3. Clicar em excluir.
+
+*Resultado Esperado:* A checklist seerá removida no Menu.
+
+## CT-006: Adição de uma tarefa
+
+*Descrição:* Possibilitar o clientee de adicionar uma tarefa dentro da playlist.
+
+*Passos:*
+1. Acessar a página de Menu de checklist.
+2. Clicar em na checklist desejada.
+3. Clicar no botão "+" no canto da tela.
+4. Adicionar o nome da tarefa.
+5. Confirmar o nome.
+
+*Resultado Esperado:* A tarefa será exibida na página de checklist.
