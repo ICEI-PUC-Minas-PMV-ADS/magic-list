@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {View, Text, StyleSheet, TextInput, TouchableOpacity} from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import Body from '../components/body';
 import Container from '../components/container';
@@ -10,8 +11,21 @@ const LoginPage = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  //const navigation = useNavigation();
+  const handleLogin = async () => {
+    try {
+      const storedEmail = await AsyncStorage.getItem('email');
+      const storedPassword = await AsyncStorage.getItem('password');
 
+      if (email === storedEmail && password === storedPassword) {
+        alert('Sucesso: Login efetuado com sucesso!');
+      } else {
+        alert('Email ou senha incorretos.');
+      }
+    } catch (error) {
+      // Error retrieving data
+      console.log('Error retrieving data:', error);
+    }
+  };
 
   return(
     <Container>
@@ -30,7 +44,7 @@ const LoginPage = () => {
 
         <TextInput style={styles.inputLogin} placeholder="Digite sua senha aqui..." onChangeText={setPassword} value={password} />
 
-        <TouchableOpacity style={styles.buttonLogin}>
+        <TouchableOpacity style={styles.buttonLogin} onPress={handleLogin}>
           <Text style={styles.textButton}>Logar-se</Text>
         </TouchableOpacity>
       </Body>

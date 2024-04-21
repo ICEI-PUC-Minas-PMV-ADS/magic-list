@@ -1,13 +1,20 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, TextInput, TouchableOpacity } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const RegisterPage = () => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+const [email, setEmail] = useState('');
+const [password, setPassword] = useState('');
 
-  const handleLogin = () => {
-    // Perform login logic here
-    console.log('Logging in...');
+  const handleRegister = async () => {
+    try {
+      await AsyncStorage.setItem('email', email);
+      await AsyncStorage.setItem('password', password);
+
+      alert('Registration successful!');
+    } catch (error) {
+      console.error('Error saving data:', error);
+    }
   };
 
   return (
@@ -31,7 +38,7 @@ const RegisterPage = () => {
         secureTextEntry
       />
 
-      <TouchableOpacity style={styles.buttonLogin} onPress={handleLogin}>
+      <TouchableOpacity style={styles.buttonLogin} onPress={handleRegister}>
         <Text style={styles.textButton}>Cadastrar-se</Text>
       </TouchableOpacity>
     </View>
