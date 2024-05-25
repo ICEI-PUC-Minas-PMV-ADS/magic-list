@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, TextInput, Button, Modal, StyleSheet, Text } from 'react-native';
+import { View, TextInput, Button, Modal, StyleSheet, Text, TouchableOpacity } from 'react-native';
 
 type RenameChecklistModalProps = {
   visible: boolean;
@@ -12,6 +12,11 @@ const RenameChecklistModal: React.FC<RenameChecklistModalProps> = ({ visible, cu
   const [newName, setNewName] = useState(currentName);
 
   const handleSave = () => {
+    if (newName.trim().length === 0) {
+      // Se o campo estiver vazio, exiba um alerta ou outra forma de feedback
+      alert('O nome não pode ser vazio!');
+      return;
+    }
     onSave(newName);
     onClose();
   };
@@ -19,7 +24,7 @@ const RenameChecklistModal: React.FC<RenameChecklistModalProps> = ({ visible, cu
   return (
     <Modal
       visible={visible}
-      animationType="slide"
+      animationType="fade"
       transparent={true}
       onRequestClose={onClose}
     >
@@ -33,8 +38,12 @@ const RenameChecklistModal: React.FC<RenameChecklistModalProps> = ({ visible, cu
             onChangeText={setNewName}
           />
           <View style={styles.buttonContainer}>
-            <Button title="Cancelar" onPress={onClose} color="gray" />
-            <Button title="Salvar" onPress={handleSave} />
+            <TouchableOpacity style={[styles.button, styles.cancelButton]} onPress={onClose}>
+              <Text style={styles.buttonText}>Cancelar</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={[styles.button, styles.saveButton]} onPress={handleSave}>
+              <Text style={[styles.buttonText, styles.saveButtonText]}>Salvar</Text>
+            </TouchableOpacity>
           </View>
         </View>
       </View>
@@ -52,24 +61,49 @@ const styles = StyleSheet.create({
   modalContent: {
     backgroundColor: 'white',
     padding: 16,
-    borderRadius: 8,
+    borderRadius: 16,
     elevation: 5,
+    width: '80%',
   },
   modalTitle: {
     fontSize: 18,
     fontWeight: 'bold',
-    marginBottom: 8,
+    marginBottom: 16,
+    textAlign: 'center',
   },
   input: {
     height: 40,
-    borderColor: 'gray',
+    borderColor: '#ccc',
     borderWidth: 1,
-    marginBottom: 12,
-    paddingHorizontal: 8,
+    marginBottom: 16,
+    paddingHorizontal: 12,
+    borderRadius: 8,
   },
   buttonContainer: {
     flexDirection: 'row',
-    justifyContent: 'space-around',
+    justifyContent: 'space-between',
+  },
+  button: {
+    flex: 1,
+    paddingVertical: 12,
+    borderRadius: 8,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  cancelButton: {
+    marginRight: 8,
+    backgroundColor: '#ccc',
+  },
+  saveButton: {
+    marginLeft: 8,
+    backgroundColor: '#007bff',
+  },
+  buttonText: {
+    fontSize: 16,
+    color: '#fff',
+  },
+  saveButtonText: {
+    fontWeight: 'bold',
   },
 });
 
