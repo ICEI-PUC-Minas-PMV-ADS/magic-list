@@ -111,10 +111,10 @@ const ChecklistsScreen: React.FC<Props> = ({ navigation }) => {
             <View style={styles.checklistItemContainer}>
               <Text style={styles.checklistItem}>{item.name}</Text>
               <TouchableOpacity onPress={() => handleRenameChecklist(item.id, item.name)}>
-                <MaterialIcons name="edit" size={24} color="#4682B4" />
+                <MaterialIcons name="edit" size={24} color="#6200EE" />
               </TouchableOpacity>
               <TouchableOpacity onPress={() => handleDeleteChecklist(item.id)}>
-                <MaterialIcons name="delete" size={24} color="#4682B4" />
+                <MaterialIcons name="delete" size={24} color="#6200EE" />
               </TouchableOpacity>
             </View>
           </TouchableOpacity>
@@ -136,7 +136,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     padding: 16,
-    backgroundColor: '#fff',
+     backgroundColor: '#D1D1D1',
   },
   title: {
     fontSize: 24,
@@ -147,6 +147,7 @@ const styles = StyleSheet.create({
   },
   input: {
     height: 40,
+    backgroundColor: 'white',
     borderColor: '#ccc',
     borderWidth: 1,
     marginBottom: 12,
@@ -159,7 +160,7 @@ const styles = StyleSheet.create({
     marginBottom: 8,
     paddingVertical: 10,
     paddingHorizontal: 16,
-    backgroundColor: '#f0f0f0',
+    backgroundColor: '#FFF',
   },
   checklistItem: {
     fontSize: 18,
@@ -171,7 +172,7 @@ const styles = StyleSheet.create({
     marginLeft: 8,
   },
   button: {
-    backgroundColor: '#4682B4',
+    backgroundColor: '#6200EE',
     paddingVertical: 12,
     alignItems: 'center',
     marginBottom: 16,

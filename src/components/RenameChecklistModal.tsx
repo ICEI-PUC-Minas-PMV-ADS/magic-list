@@ -13,7 +13,6 @@ const RenameChecklistModal: React.FC<RenameChecklistModalProps> = ({ visible, cu
 
   const handleSave = () => {
     if (newName.trim().length === 0) {
-      // Se o campo estiver vazio, exiba um alerta ou outra forma de feedback
       alert('O nome não pode ser vazio!');
       return;
     }

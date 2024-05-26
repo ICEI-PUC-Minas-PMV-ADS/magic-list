@@ -98,14 +98,18 @@ const ChecklistScreen: React.FC<Props> = ({ navigation, route }) => {
 
   return (
     <View style={styles.container}>
-      <FlatList
-        ListHeaderComponent={<Text style={styles.title}>{checklist.name}</Text>}
-        ListHeaderComponentStyle={styles.listHeader}
-        data={checklist.items}
-        renderItem={({ item }) => (
-          <ChecklistItem item={item} removeItem={removeItem} toggleCheckbox={toggleCheckbox} />
-        )}
-      />
+      
+        <FlatList 
+          ListHeaderComponent={<Text style={styles.title}>{checklist.name}</Text>}
+          ListHeaderComponentStyle={styles.listHeader}
+          data={checklist.items} 
+          renderItem={({ item })  => (
+            <View style={styles.checklist}>
+            <ChecklistItem item={item} removeItem={removeItem} toggleCheckbox={toggleCheckbox} />
+            </View> 
+            )} 
+        />
+     
       <TextInput
         style={styles.input}
         placeholder="Novo Item"
@@ -124,6 +128,10 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
+    backgroundColor: '#D1D1D1',
+  },
+  checklist:{
+    backgroundColor:'white'
   },
   title: {
     fontSize: 24,
@@ -135,13 +143,14 @@ const styles = StyleSheet.create({
   },
   input: {
     height: 40,
+    backgroundColor: 'white',
     borderColor: 'gray',
     borderWidth: 1,
     marginBottom: 12,
     paddingHorizontal: 8,
   },
   button: {
-    backgroundColor: '#4682B4',
+    backgroundColor: '#6200EE',
     paddingVertical: 12,
     alignItems: 'center',
     marginBottom: 16,

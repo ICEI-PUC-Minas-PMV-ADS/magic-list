@@ -42,14 +42,14 @@ const RegisterScreen: React.FC<Props> = ({ navigation }) => {
         secureTextEntry
       />
       <TouchableOpacity
-        style={[styles.button, { backgroundColor: '#4682B4' }]}
+        style={[styles.button, { backgroundColor: '#6200EE' }]}
         onPress={handleRegister}
       >
         <Text style={styles.buttonText}>Cadastrar</Text>
       </TouchableOpacity>
       {error ? <Text style={styles.error}>{error}</Text> : null}
       <TouchableOpacity
-        style={[styles.button, { backgroundColor: '#4682B4' }]}
+        style={[styles.button, { backgroundColor: '#6200EE' }]}
         onPress={() => navigation.navigate('Login')}
       >
         <Text style={styles.buttonText}>Já tenho uma conta</Text>
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     padding: 16,
-    backgroundColor: '#fff',
+    backgroundColor: '#D1D1D1',
   },
   title: {
     fontSize: 32,
@@ -76,7 +76,9 @@ const styles = StyleSheet.create({
   input: {
     height: 40,
     width: '80%',
+    backgroundColor: 'white',
     borderColor: '#ccc',
+    borderRadius: 3,
     borderWidth: 1,
     marginBottom: 24,
     paddingHorizontal: 12,
@@ -84,7 +86,7 @@ const styles = StyleSheet.create({
   button: {
     marginTop: 16,
     width: '80%',
-    borderRadius: 8,
+    borderRadius: 18,
     paddingVertical: 12,
     alignItems: 'center',
   },

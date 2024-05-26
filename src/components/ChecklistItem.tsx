@@ -31,7 +31,7 @@ const ChecklistItem: React.FC<ChecklistItemProps> = ({ item, removeItem, toggleC
       {renderCheckbox()}
       <Text style={[styles.itemText, item.completed && styles.completedItem]}>{item.name}</Text>
       <TouchableOpacity onPress={() => removeItem(item.key)}>
-        <MaterialIcons name="delete" size={24} color="#4682B4" />
+        <MaterialIcons name="delete" size={24} color="#6200EE" />
       </TouchableOpacity>
     </View>
   );
