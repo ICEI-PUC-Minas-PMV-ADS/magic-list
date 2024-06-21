@@ -1,0 +1,26 @@
+message: Please cite this software using these metadata.
+title: magic list
+authors:
+  - family-names: Pinto Rodrigues
+    given-names: Pedro Ianky
+  - family-names: Wludarski Resende
+    given-names: Giovanni Dias
+  - family-names: 
+    given-names: Kayki Letieri
+  - family-names: 
+    given-names: Luan Flamarion
+  - family-names: 
+    given-names: 
+  - family-names: 
+    given-names: 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: de Macêdo Neto
+    given-names: Cristiano 
+keywords:
+  - To do list
+  - Livros
+  - Gestão
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/magic-list
+version: 1.0.1
+date-released: 2024-06-20
